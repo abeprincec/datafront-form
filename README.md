@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center"><a href="https://darafront-form.vercel.app/">Sign In Form</a></h1>
+  <h1 align="center"><a href="https://datafront-form.vercel.app/">Sign In Form</a></h1>
   <strong>
    This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App </a>
   </strong>
@@ -10,7 +10,7 @@
 ## Live website
 
 To view the live website go to
-[Sign In Form](https://darafront-form.vercel.app/)
+[Sign In Form](https://datafront-form.vercel.app/)
 
 ## Login credentials
 
@@ -26,7 +26,7 @@ Use these credentials to stimulate a successful login:
 Run these commands to get set up
 
 ```shell
-git clone https://github.com/abeprincec/darafront-form.git
+git clone https://github.com/abeprincec/datafront-form.git
 cd datafront-form
 npm install
 ```
