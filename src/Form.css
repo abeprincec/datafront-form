@@ -1,10 +1,5 @@
 .form {
-  --primary-color: #06874e;
   border-top: 2px solid var(--primary-color);
-  max-width: 400px;
-  margin: 0 auto;
-  padding-left: 21px;
-  padding-right: 21px;
 }
 
 .form h1 {
@@ -18,26 +13,7 @@
   padding-bottom: 8px;
 }
 
-.field label {
-  display: block;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.field input {
-  /* display: block; */
-  padding-top: 16px;
-  padding-bottom: 16px;
-  width: 98%;
-  border: 1px solid gainsboro;
-  font-size: 21px;
-}
-
-.field input[type='checkbox'] {
-  width: 16px;
-}
-
-.field .signup-button {
+.field button {
   background-color: var(--primary-color);
   border: none;
   text-align: center;
@@ -56,4 +32,9 @@
 .form-footer a {
   font-weight: 600;
   color: #000;
+}
+
+.error {
+  color: var(--error-color);
+  font-size: 12px;
 }

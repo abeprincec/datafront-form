@@ -1,0 +1,16 @@
+input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.checkbox-label {
+  padding-left: 4px;
+}
+
+/* New css feature to change the color of checkboxes, radio buttons see: https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color  */
+@supports (accent-color: #06874e) {
+  input[type='checkbox'] {
+    accent-color: #06874e;
+  }
+}

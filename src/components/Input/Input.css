@@ -1,0 +1,8 @@
+input {
+  /* display: block; */
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 98%;
+  border: 1px solid gainsboro;
+  font-size: 21px;
+}

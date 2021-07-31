@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #06874e;
+  --primary-color-200: #50ab83;
+  --error-color: #9f3e37;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
@@ -10,4 +16,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:focus {
+  outline-color: var(--primary-color);
 }

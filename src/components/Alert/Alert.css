@@ -1,0 +1,17 @@
+.alert {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.alert.danger {
+  border-color: tomato;
+  color: #c53030;
+  background-color: #fff5f5;
+}
+
+.alert.success {
+  border-color: #38b2ac;
+  color: #234e52;
+  background-color: #e6fffa;
+}
