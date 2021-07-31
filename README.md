@@ -14,11 +14,11 @@ To view the live website go to
 
 ## Login credentials
 
-To mimick a login api call there is an api call to [Reqres](https://reqres.in/)
+To mimic a login api call there is an api call to [Reqres](https://reqres.in/)
 
 Use these credentials to stimulate a successful login:
 
-- email: eve.holt@reqres.in,
+- email: eve.holt@reqres.in
 - password: cityslicka
 
 ## Setup
