@@ -43,7 +43,7 @@ function Form({signInApi}) {
   return (
     <div className="form">
       <h1 title="Sign in">Sign in</h1>
-      {userToken && <Alert type="success">Sucessfully logged in!</Alert>}
+      {userToken && <Alert type="success">Successfully logged in!</Alert>}
       {error && <Alert type="danger">{error}</Alert>}
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="field">

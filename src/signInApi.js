@@ -1,11 +1,3 @@
-// export const signInApi = (email, password) => {
-//   return new Promise(resolve => {
-//     setTimeout(() => {
-//       resolve(email, password)
-//     }, 500)
-//   })
-// }
-
 export function signInApi(email, password) {
   return fetch('https://reqres.in/api/login', {
     method: 'POST',
